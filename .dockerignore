@@ -1,0 +1,6 @@
+*.json
+ddl.sql
+.DS_Store
+.git/
+.gitignore
+__pycache__/

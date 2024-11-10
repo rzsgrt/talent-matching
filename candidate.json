@@ -1,0 +1,36 @@
+{
+    "first_name": "John",
+    "last_name": "Doe",
+    "birthdate": "1993-01-01",
+    "age": 30,
+    "email": "john.doe@example.com",
+    "phone": "+1234567890",
+    "address": "123 Main St, Anytown, USA",
+    "skills": ["JavaScript", "Python", "Java"],
+    "experiences": [
+        {
+            "company": "Company A",
+            "role": "Software Engineer",
+            "start_date": "2015-01-01",
+            "end_date": "2018-12-31"
+        },
+        {
+            "company": "Company B",
+            "role": "Senior Software Engineer",
+            "start_date": "2019-01-01",
+            "end_date": "2021-12-31"
+        }
+    ],
+    "education": [
+        {
+            "institution": "University X",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2015
+        },
+        {
+            "institution": "University Y",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2018
+        }
+    ]
+}

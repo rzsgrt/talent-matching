@@ -1,0 +1,43 @@
+{
+    "job":[{
+        "job_title": "Software Engineer",
+        "job_description": "Responsible for developing and maintaining software applications.",
+        "budget": {
+            "min": 70000,
+            "max": 90000,
+            "currency": "USD"
+        },
+        "location": "San Francisco, CA",
+        "company_name": "Tech Corp",
+        "employment_type": "Full-time",
+        "required_skills": ["JavaScript", "Python", "Java"]
+    },
+    {
+        "job_title": "Data Scientist",
+        "job_description": "As a Data Scientist, you will be responsible for analyzing and interpreting complex data to help drive strategic decision-making across the company. This role requires expertise in statistical analysis, data visualization, and machine learning techniques. You will work closely with cross-functional teams to translate business requirements into data-driven solutions, build predictive models, and present findings to both technical and non-technical stakeholders. A strong understanding of data manipulation, data mining, and model evaluation techniques is essential. This is an exciting opportunity to apply your analytical skills to real-world business problems and have a significant impact on our products and customer experience.",
+        "budget": {
+            "min": 85000,
+            "max": 120000,
+            "currency": "USD"
+        },
+        "location": "New York, NY",
+        "company_name": "Data Solutions Inc.",
+        "employment_type": "Full-time",
+        "required_skills": ["Python", "SQL", "Machine Learning", "Statistics", "Data Visualization"]
+    },
+    {
+    
+        "job_title": "Data Engineer",
+        "job_description": "Build and maintain scalable data pipelines, optimize data architectures, and ensure data integrity for analytics platforms.",
+        "budget": {
+            "min": 80000,
+            "max": 110000,
+            "currency": "USD"
+        },
+        "location": "Austin, TX",
+        "company_name": "Tech Innovations",
+        "employment_type": "Full-time",
+        "required_skills": ["Python", "SQL", "Apache Spark", "ETL Processes", "Data Warehousing"]
+    }
+    ]
+}
