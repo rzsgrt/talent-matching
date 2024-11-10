@@ -16,6 +16,8 @@ CREATE TABLE jobs (
     is_bachelor BOOLEAN DEFAULT FALSE,
     is_master BOOLEAN DEFAULT FALSE,
     tenure INTEGER,
+    bachelor_program TEXT,
+    master_program TEXT,
     job_embedding vector(32)
 );
 CREATE INDEX ON jobs USING ivfflat (job_embedding vector_cosine_ops) WITH (lists = 100);
