@@ -1,0 +1,4 @@
+FROM llama3.2:1b
+
+# Model parameters
+PARAMETER temperature 0

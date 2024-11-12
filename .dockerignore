@@ -4,3 +4,5 @@ ddl.sql
 .git/
 .gitignore
 __pycache__/
+postgres/
+ollama/
