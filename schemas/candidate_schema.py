@@ -16,7 +16,7 @@ class Education(BaseModel):
     year_of_graduation: Optional[int] = None
 
 
-class Candidate(BaseModel):
+class CandidateCreate(BaseModel):
     first_name: Optional[str] = None
     last_name: Optional[str] = None
     birthdate: Optional[date] = None
