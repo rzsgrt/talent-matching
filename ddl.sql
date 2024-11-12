@@ -1,3 +1,5 @@
+CREATE EXTENSION vector;
+
 CREATE TABLE jobs (
     job_id UUID PRIMARY KEY,
     previous_version_id UUID,
@@ -62,4 +64,4 @@ CREATE TABLE candidates (
     candidate_embedding vector(32)
 );
 
-CREATE INDEX ON jobs USING ivfflat (candidate_embedding vector_cosine_ops) WITH (lists = 100);
+CREATE INDEX ON candidates USING ivfflat (candidate_embedding vector_cosine_ops) WITH (lists = 100);
