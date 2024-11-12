@@ -4,7 +4,7 @@ FROM ollama/ollama:latest
 COPY Modelfile /tmp/Modelfile
 COPY ./run_ollama.sh /tmp/run_ollama.sh
 WORKDIR /tmp
-# RUN chmod +x run_ollama.sh
+RUN chmod +x run_ollama.sh
 
 # Expose port
 EXPOSE 11434
