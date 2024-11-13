@@ -1,8 +1,8 @@
 import uuid
 from datetime import datetime
 
-from sqlalchemy import UUID, Column, DateTime, Integer, Text, Boolean
-from sqlalchemy.dialects.postgresql import VECTOR
+from pgvector.sqlalchemy import Vector
+from sqlalchemy import UUID, Boolean, Column, DateTime, Integer, Text
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
@@ -30,4 +30,4 @@ class JobModel(Base):
     bachelor_program = Column(Text)
     master_program = Column(Text)
     tenure = Column(Integer)
-    job_embedding = Column(VECTOR(32), nullable=False)
+    job_embedding = Column(Vector(32), nullable=False)

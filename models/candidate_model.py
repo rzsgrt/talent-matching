@@ -1,8 +1,8 @@
 import uuid
 from datetime import datetime
 
+from pgvector.sqlalchemy import Vector
 from sqlalchemy import UUID, Boolean, Column, Date, DateTime, Integer, Text
-from sqlalchemy.dialects.postgresql import VECTOR
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
@@ -46,4 +46,4 @@ class CandidateModel(Base):
     has_master = Column(Boolean, default=False)
 
     candidate_tenure = Column(Integer)
-    candidate_embedding = Column(VECTOR(32), nullable=False)
+    candidate_embedding = Column(Vector(32), nullable=False)
